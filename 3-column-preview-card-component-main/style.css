@@ -13,7 +13,7 @@
 
 * {
     box-sizing: border-box;
-
+    
 }
 
 html,
@@ -22,5 +22,39 @@ body {
     width: 100%;
     margin: 0;
     font-size: var(--font-size);
-    
+    display: flex;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+
+}
+
+.sedans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.suvs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.luxury {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
