@@ -31,11 +31,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 main {
     display: flex;
-
+    max-width: 1440px;
 }
 
 .sedans {
