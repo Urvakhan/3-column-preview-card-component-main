@@ -31,12 +31,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background-color: var(--background-color);
+    
 }
 
 main {
     display: flex;
     max-width: 1440px;
+    background-color: var(--background-color);
+    color: var(--font-color);
 }
 
 .sedans {
@@ -44,6 +47,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: var(--bright-orange);
 }
 
 .suvs {
@@ -51,6 +55,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: var(--dark-cyan);
 }
 
 .luxury {
@@ -58,4 +63,10 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: var(--very-dark-cyan);
+}
+
+.attribution {
+    display: flex;
+    
 }
